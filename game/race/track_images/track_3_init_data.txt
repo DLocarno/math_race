@@ -1,0 +1,67 @@
+# "Level" Data file
+# Corresponds to track_2.png image
+# 
+# This datafile must be staged in the same directory as it's associated image file as it
+# contains critical information required to initialize the game's "race" level, such as:
+# Player start coordinates, how many non-playable characters are created, and their associated image filenames and start coordinates, etc.
+# The source code (Class) file that reads/extracts this data is named "Level.py"
+#
+# The order of the data in this file is critical and should always be:
+# 1) Number of laps to win the race
+# 2) Color of level collision boundary / border (in (R, G, B)) Format
+# 3) Dimensions and color of the level's finish_line object. ((x, y, width, height, rotation angle, (R, G, B)) Note: x, y coodinates correspond to track image x,y pixels and the top left corner of finish line 
+# 4) Player Start Coordinate Data, represented as the tuple: (X, Y, Starting Orientation Angle for the Sprite Image)
+# 5) Number of NPC cars to be instantiated, as an integer
+# 6) NPC coordinate start data for each NPC character that's instantiated, represented as the tuple: (X, Y, Starting Orientation Angle for Sprite Image), each on its own line.
+# 7) The remaining lines are the NPC's waypoints along the level map, which are unique to each level and can be created/generated via the image_plotter_tool.py
+#
+# *Note: All blank lines and lines which begin with '#' symbol are ignored.  (Anything else can/will mess things up royally).
+#
+# Complete laps to Win:
+2
+# Level Boundary/Collision Color: (black)
+(0,0,0)
+# Level Finish Line Coords:
+(230, 1680, 1220, 140, 0, (150, 150, 25))
+# Player Start Coords:
+(800, 2300, 270)
+# Number of NPC's:
+8
+# Each NPC's Start Coords:
+(500, 2000, 270)
+(700, 2000, 270)
+(900, 2000, 270)
+(1200, 2000, 270)
+(500, 2200, 270)
+(700, 2200, 270)
+(900, 2200, 270)
+(1200, 2200, 270)
+# Waypoints
+[(1390, 1067), (1198, 1067), (1014, 1053), (814, 1053)]
+[(1829, 418), (1845, 533), (1861, 628), (1885, 736)]
+[(2852, 567), (2812, 675), (2756, 776), (2740, 878)]
+[(3715, 1276), (3571, 1357), (3483, 1425), (3355, 1540)]
+[(4450, 1830), (4378, 1972), (4362, 2073), (4354, 2262)]
+[(5153, 1904), (5177, 2033), (5185, 2134), (5193, 2228), (5209, 2431)]
+[(5872, 1695), (5992, 1850), (6080, 1945), (6160, 2033), (6312, 2181)]
+[(6839, 1175), (6943, 1215), (7039, 1283), (7111, 1384), (7198, 1458)]
+[(7654, 499), (7742, 655), (7750, 661), (7822, 824), (7870, 925)]
+[(9140, 425), (9068, 594), (9076, 688), (8996, 884), (9036, 1026)]
+[(10195, 1006), (10075, 1155), (10019, 1229), (9899, 1344), (9787, 1431)]
+[(10810, 2073), (10658, 2100), (10546, 2134), (10323, 2195), (10235, 2222)]
+[(10139, 2971), (10394, 2931), (10546, 2938), (10698, 2951), (10866, 2965)]
+[(10187, 3890), (10339, 3985), (10450, 4012), (10642, 4059), (10786, 4120)]
+[(9899, 4687), (10083, 4755), (10171, 4815), (10259, 4890)]
+[(9180, 4984), (9180, 5099), (9164, 5187), (9164, 5376)]
+[(8621, 4559), (8565, 4593), (8413, 4647), (8213, 4701)]
+[(8045, 3904), (7894, 3978), (7790, 4072), (7638, 4174)]
+[(6671, 3937), (6679, 4045), (6679, 4147), (6735, 4336)]
+[(5656, 3937), (5537, 4106), (5473, 4201), (5417, 4383)]
+[(4993, 3579), (4833, 3708), (4778, 3843), (4730, 4018)]
+[(3723, 4106), (3811, 4255), (3907, 4343), (4002, 4451), (3867, 4376)]
+[(3116, 4761), (3211, 4856), (3251, 4910), (3339, 5011), (3419, 5153)]
+[(1845, 4978), (1837, 5140), (1829, 5227), (1829, 5396), (1813, 5525)]
+[(647, 4917), (806, 4869), (966, 4795), (1094, 4755)]
+[(479, 3978), (671, 3971), (806, 3944), (982, 3944)]
+[(639, 2911), (830, 2917), (1030, 2931), (1214, 2890)]
+[(599, 2053), (687, 2053), (878, 2039), (1094, 2019)]

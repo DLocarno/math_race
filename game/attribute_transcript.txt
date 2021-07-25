@@ -1,0 +1,75 @@
+Hey, Hey!  
+You're Back...
+
+...
+
+Whooaaa! You earned a ton of power-ups!
+Amazing Job.
+
+We can improve your car a bunch with this. 
+
+How, you ask?
+You just leave that to me!
+
+All you got let me know which attributes you want to use your power-ups 
+on to improve. There's several areas we can work on to make your car 
+better for the Math Race.
+
+Huh, what attributes are there you ask??
+...well... uhh, lets see... 
+
+First off, there's of course "speed".  This allows you to go faster.
+I doubt I need to explain why speed is important in a race, but, just so
+you're aware--if you can't go faster than your fastest opponent, you
+probably won't win!  You're "speedometer" tells you how fast your going.
+
+"acceleration" which will help you get up to your maximum speed quicker.
+This is especially handy if you bump into alot of stuff, because that will
+slow you down.  You can accelerate your car with the <space> key. 
+When you want to give it gas, keep that baby held down!
+
+"handling" will make your car steer better.  
+Better handling is super important when your racing the twisties.
+Without good handling, your bound to go off-track! You can turn your car 
+with the <left> and <right> arrow keys.
+
+Your vehicle "health" is also important.  You will always start a race with 
+100% health, but, if you increase this attribute, your car doesn't get
+banged up easily when you, erm, "bump" into things.  
+
+And, be careful! If your health gets too low your car won't drive as good...
+If it gets all the way to 0, well...I also manage a thriving tow buisiness!
+
+Last, there's the "boost" attribute (my favorite hehe).  This will cost you
+more power-up points to improve than the other attributes.  But, if
+you've  earned enough, I can give your car shots of NOS to go suuuuper 
+fast. Remember, you can use the <n> key to get the NOS a-flowin'during
+the race and hang-on tight!
+
+So lets get to upgrading your car... Just select the attribute you want to
+improve from the menu with the <up> and <down> arrow keys, and then,
+select how many points to use with the <right> and <left> arrow keys.  
+When you're happy, press <enter> to confirm and let 'ol Speedy work his
+magic!  
+
+I know you're itchin' to get out there, so once we're done with these
+upgrades, we'll get this baby over to the track!! And, you can do your
+thing.
+
+Oh...I almost forgot. I know we covered all the basics around racing,
+but, I'll give you one final pro tip:
+
+For tighter turns, release the accelerator (<space> key), and hold down
+your car's e-brake (<b> key) while turning with the (<left> or <right> keys).
+This way, you'll drift like a champion, even if your car's handling
+attribute is not so stellar.
+
+Ok, enough, talk.  This is where the rubber meets the road.  Let's take
+your car to the next level and get on out there.  
+You just point-and-shoot, and I'll do the rest.
+
+And, Happy Racing!
+*END
+  
+
+
